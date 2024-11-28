@@ -11,4 +11,10 @@ public class MainController {
 		
 		return "main";
 	}
+	
+	@RequestMapping("x")
+	public String root2() {
+		
+		return "main2";
+	}
 }
